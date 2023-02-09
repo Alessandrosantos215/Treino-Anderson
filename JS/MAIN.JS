@@ -1,4 +1,4 @@
-$('.card').owlCarousel({
+$('.card').owl-Carousel({
     margin:20,
     loop:true,
     autoplayTimeOut:2000,
