@@ -1,12 +1,12 @@
-$('.card').owl-Carousel({
+$('.card').owlCarousel({
     margin:20,
     loop:true,
-    autoplayTimeOut:2000,
-    autoplayHoverPauser:true,
+    autoPlayTimeOut:2000,
+    autoPlayHoverPauser:true,
     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:false,
         },
         500:{
             items:2,
