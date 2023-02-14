@@ -8,7 +8,7 @@ $('.card').owlCarousel({
             items:1,
             nav:false,
         },
-        500:{
+        600:{
             items:2,
             nav:false
         },
@@ -17,4 +17,7 @@ $('.card').owlCarousel({
             nav:false
         }
     }
+})
+$('.btn').click(function(){
+    $('.menu-mobile').slideToggle('show')
 })
