@@ -98,6 +98,7 @@ section .container{
 }
 #home .container .content .button{
     padding-top:200px ;
+    
 }
 #home .container .content .button button{
     padding: 10px 20px;
@@ -108,6 +109,7 @@ section .container{
     font-size: 1.2rem;
     transition: all 0.5s ease;
     cursor: pointer;
+    border-radius: 15px;
 }
 #home .container .content .button button:hover{
     transform: scale(1.1);
@@ -174,6 +176,8 @@ section .container{
     padding: 5px 10px;
     color: #fff;
     border-radius: 5px;
+    border-radius: 15px;
+    
 }
 #branch .container .box img{
     width: 120px;
@@ -206,6 +210,7 @@ section .container{
     visibility: hidden;
     transition: 0.5s;
     cursor: pointer;
+    border-radius: 15px;
 }
 #branch .container .box:hover button{
     transform: translateY(0);
@@ -272,6 +277,7 @@ section .container{
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.5s ease;
+    border-radius: 15px;
 }
 #about .container .title .call button:hover{
     transform: scale(1);
@@ -332,6 +338,7 @@ section .container{
     line-height: 80px;
     margin-top: 60px;
     cursor: pointer;
+    border-radius: 15px;
 }
 #products .container .card .box .icon ion-icon{
     color: #f0f8ff;
@@ -467,8 +474,9 @@ section .container{
     margin-top: 50px;
     margin-bottom: 30px;
     background: #B48C56;
-    padding: 5px 20px;
+    padding: 10px 20px;
     color: #f0f8ff;
+    border-radius: 15px;
 }
 #news .container .content .box:hover{
     background: rgba(48, 39, 37, 0.9);
@@ -510,6 +518,7 @@ section .container{
     visibility: hidden;
     transition: 0.5s;
     cursor: pointer;
+    border-radius: 15px;
 }
 #news .container .content .box:hover button{
     transform: translateY(0);
@@ -532,6 +541,7 @@ section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 15px;
 }
 #footer .container .content .left{
     width: 40%;
