@@ -924,5 +924,149 @@ section .container{
         background-size: contain;
         height: 100vh;
     }
+    #news .container .box button{
+        margin-top: 20px;
+    }
+    #footer .container{
+        background: url(../imagens/res2.png) no-repeat;
+        background-size: contain;
+        height: 100vh;
+    }
+    #footer .container .content .right{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #footer .container .content .right .button{
+        margin-top: 10px;
+
+    }
+    #footer .container .info{
+        height: 60vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer .container .info .box{
+        width: 80%;
+        align-items: center;
+        margin: 5px;
+    }
+    #footer .container .info .box h1{
+        margin: 0;
+    }
+    #footer .container .copyright p{
+        margin-bottom: 20px;
+    }
     
+    
+}
+@media screen and (max-width: 412px){
+    header .menu-mobile{
+        width: 210px;
+    }
+    header .menu-mobile ul li a{
+        font-size: 1rem;
+    }
+    #home .container .content{
+        width: 90%;
+    }
+    #home .container .content h1{
+        font-size: 1.5rem;
+    }
+    #home .container .content p{
+        font-size: 0.9rem;
+        color: #302725;
+    }
+    #home .container .content span{
+        font-size: 1.5rem;
+        color: #302725;
+    }
+    #home .container .content .button{
+        padding-top: 20px;
+        
+    }
+    #home .container .content .button button{
+        font-size: 0.9rem;
+    }
+    #about .container{
+        height: 70vh;
+    }
+    #home .container .title{
+        margin-top: -20px;
+    }
+    #home .container .title h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    #home .container .title .call h2{
+        margin-top: -30px;
+        font-size: 1.5rem;
+    }
+    #home .container .title .call p{
+        font-size: 1rem;
+    }
+    #home .container .title .call button{
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+    #team .container{
+        height: 120vh;
+    }
+    #team .container .content p{
+        font-size: 1rem;
+        margin-top: 30px;
+    }
+    #news .container{
+        height: 100vh;
+    }
+    #news .container .content{
+        height: 50vh;
+    }
+    #news .container .box:hover{
+        height: 35vh;
+    }
+    #news .container .box button{
+        font-size: 1.1rem;
+        padding: 2px;
+    }
+    #footer .container{
+        height: 130vh;
+    }
+    #footer .container .content{
+        height: 60vh;
+    }
+    #footer .container .content .left h1{
+        font-size: 1.2rem;
+    }
+    #footer .container .content .left p{
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    #footer .container .content .right input{
+        padding: 5px 30px;
+        font-size: 1rem;
+    }
+    #footer .container .content .right button{
+        padding: 5px 35px;
+        font-size: 1rem;
+    }
+    #footer .container .info{
+        margin-top: 80px;
+    }
+    #footer .container .info .box h1{
+        font-size: 1rem;
+    }
+    #footer .container .info .box p{
+        font-size: 0.8rem;
+    }
+    #footer .container .info .box ion-icon{
+        font-size: 1rem;
+    }
+    #footer .container .copyright P{
+        margin-top: -20px;
+        font-size: 0.7rem;
+    }
 }
